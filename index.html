@@ -1,0 +1,89 @@
+<!-- Tailwind CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-green-600 text-white p-6 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Explore the World</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#menu" class="hover:text-gray-300">Home</a></li>
+          <li><a href="#Destination" class="hover:text-gray-300">Destinations</a></li>
+          <li><a href="#tour" class="hover:text-gray-300">Tours</a></li>
+          <li><a href="#Contact" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="menu" class="bg-green-100 py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Your Adventure Awaits</h2>
+      <p class="text-lg text-gray-700 mb-6">Discover amazing destinations and unique experiences with us.</p>
+      <button class="bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700">Plan Your Trip</button>
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section id="Destination" class="py-16">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-8">Top Destinations</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Destination 1 -->
+        <div class="p-6 bg-green-400 rounded-lg shadow hover:shadow-lg">
+          <img src="Images\paris.jpg" alt="Destination 1" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2">Paris, France</h4>
+          <p class="text-gray-600">Experience the charm of Paris and its iconic landmarks.</p>
+        </div>
+        <!-- Destination 2 -->
+        <div class="p-6 bg-green-400 rounded-lg shadow hover:shadow-lg">
+          <img src="Images\bali.jpg" alt="Destination 2" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2">Bali, Indonesia</h4>
+          <p class="text-gray-600">Discover the tranquil beaches and vibrant culture of Bali.</p>
+        </div>
+        <!-- Destination 3 -->
+        <div class="p-6 bg-green-400 rounded-lg shadow hover:shadow-lg">
+          <img src="Images\newyork.jpg" alt="Destination 3" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2">New York, USA</h4>
+          <p class="text-gray-600">Explore the bustling streets and iconic landmarks of New York City.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="Contact" class="bg-gray-100 py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-4">Get in Touch</h3>
+      <p class="text-lg text-gray-700 mb-6">Have questions? We're here to help you plan your perfect trip.</p>
+      <form class="max-w-lg mx-auto">
+        <div class="mb-4">
+          <input type="text" class="w-full p-3 rounded-lg border border-gray-300" placeholder="Your Name">
+        </div>
+        <div class="mb-4">
+          <input type="email" class="w-full p-3 rounded-lg border border-gray-300" placeholder="Your Email">
+        </div>
+        <div class="mb-4">
+          <textarea class="w-full p-3 rounded-lg border border-gray-300" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button class="bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Explore the World. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
