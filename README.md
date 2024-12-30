@@ -10,7 +10,7 @@ This project is a responsive and modern web page designed for a travel agency us
 - **Padding & Margins:** Fine-tuned spacing for a clean and consistent look.
 - **Styling Text & Typography:** Customized fonts and text styles to enhance readability and aesthetics.
 - **Borders & Shadows:** Added visual depth to elements for a polished UI.
-- 
+  
 ## Tools & Technologies
 - **Tailwind CSS**
 - HTML
